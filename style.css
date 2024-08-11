@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    /* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+
+
+
+.ritu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 550px;
+    background-color: #1F1F1F;
+    position:absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 16px;
+    padding: 25px;
+}
+.ritu img{
+    display: flex;
+    /* position: fixed; */
+    border-radius: 100%;
+    width: 90px;
+    height: 85px;
+    border: solid 25px #1F1F1F ;
+
+
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* .has1{
+    display: flex;
+    align-self:center;
+    position:fixed ;
+    width: ;
+    background-color: #333333;
+    border: solid 15px #333333;
+    border-radius: 16px;
+} */
+span{
+    color: greenyellow;
+}
+
+.ritu a{
+    background: #333333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 14px 0;
+    text-align: center;
+    width: 280px;
+}
+a.back:hover,a.delete:hover {
+    background:greenyellow;
+    text-decoration: none;
+}
